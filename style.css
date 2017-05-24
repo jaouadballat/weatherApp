@@ -1,0 +1,82 @@
+body{
+    background-image: url(http://i.imgur.com/sVZkZog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center;
+    color: #FAFAFF;
+    
+}
+html{
+    height: 100%;
+}
+.weather-info{
+	width: 30%;
+    background-color: rgba(0,0,0,0.3);
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    transform: translateY(40px);
+}
+.status img{
+    width: 30%;
+    transform: translate(-55px, 30px);
+}
+#temperature {
+    float: right;
+    transform: translate(-30px, 53px);
+    font-size: 60px;
+    
+}
+.temp-inline {
+    width: 47%;
+    display: inline-block;
+    font-weight: 100;
+}
+p{
+	font-size: 20px
+}
+.status > a{
+    text-decoration: none;
+    color: #FAFAFF;
+}
+#weather-main{
+	letter-spacing: 13px;
+}
+.weather-main{
+    letter-spacing: normal;
+}
+@media (max-width: 1150px){
+    
+    .status img{
+        transform: none;
+        display: block;
+        margin: 0 auto;
+    }
+    #temperature{
+        float: none;
+    }
+    .weather-info{
+        padding: 0;
+        transform: none;
+        width: 50%;
+    }
+}
+@media (max-width: 916px){
+  
+    .temp-inline{
+        display: block;
+        margin: 0 auto;
+    }
+    ..weather-info{
+        width: 60%;
+    }
+}
+@media (max-width: 700px){
+    
+    .weather-info {
+        width: 80%;
+    }
+}
