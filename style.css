@@ -7,9 +7,7 @@ body{
     color: #FAFAFF;
     
 }
-html{
-    height: 100%;
-}
+
 .weather-info{
 	width: 30%;
     background-color: rgba(0,0,0,0.3);
