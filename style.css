@@ -3,7 +3,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
-    max-height: 100%;
     background-position: center;
     color: #FAFAFF;
     
@@ -18,7 +17,6 @@ html{
     text-align: center;
     padding: 5px 10px;
     box-sizing: border-box;
-    transform: translateY(40px);
 }
 .status img{
     width: 30%;
@@ -47,6 +45,9 @@ p{
 }
 .weather-main{
     letter-spacing: normal;
+}
+.footer{
+    text-align: center;
 }
 @media (max-width: 1150px){
     
