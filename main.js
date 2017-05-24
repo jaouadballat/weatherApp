@@ -16,7 +16,7 @@ function celTofah(c, cel){
     return Math.round(c)+"°C";
 }
 function getLocation() {
-	$.getJSON("https://ip-api.com/json", function(data) {
+	$.getJSON("http://ip-api.com/json", function(data) {
         $('.city').text(data.city+', '+data.country);
 		getWeatherInfo(data.city);
 	}, function(err){
