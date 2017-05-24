@@ -25,7 +25,7 @@ function getLocation() {
 	 
 }
 function getWeatherInfo(city){
-	var url = '//api.openweathermap.org/data/2.5/find';
+	var url = 'http://api.openweathermap.org/data/2.5/find';
 	$.getJSON(url,
 		{
 			q: city,
